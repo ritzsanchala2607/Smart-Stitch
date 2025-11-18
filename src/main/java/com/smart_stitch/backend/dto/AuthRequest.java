@@ -1,0 +1,9 @@
+package com.smart_stitch.backend.dto;
+
+import lombok.Data;
+
+@Data
+public class AuthRequest {
+    private String username;
+    private String password;
+}
